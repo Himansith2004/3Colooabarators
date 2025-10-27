@@ -1,49 +1,53 @@
 # 🎓 GPA Calculator Project
 
-**👥 Project Members:**  
-- Sathira Sugeesvara  
-- Himansith Wikramasinghe  
-- Hashinta Dilshan  
-- Dhanuka  
+**👥 Project Members:**
+- Sathira Sugeesvara
+- Himansith Wikramasinghe
+- Hashinta Dilshan
+- Dhanuka
 
 ---
 
 ## 📖 Project Description
-This is a **GPA Calculator** program designed by our team to help students **easily calculate their GPA** 🎯.  
-Simply enter your course grades and credit hours, and the program will automatically calculate your **Grade Point Average**.
+This is a **GPA Calculator** program designed by our team to help students **easily calculate their GPA** 🎯. Simply enter your course grades and credit hours, and the program will automatically calculate your **Grade Point Average**.
 
 ---
 
 ## ✨ Features
-- 📝 Input grades and credit hours for multiple courses  
-- 🔢 Automatic GPA calculation  
-- ✏️ Option to update or remove courses  
-- 💻 User-friendly and simple interface  
+- 📝 Input grades and credit hours for multiple courses
+- 🔢 Automatic GPA calculation
+- ✏️ Option to update or remove courses
+- 💻 User-friendly and simple interface
 
 ---
 
 ## 🚀 How to Use
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/Sathirasugeesvara/3Colooabarators.git
-Open the project in Code::Blocks or run the program directly.
+1. Clone the repository:
+```bash
+git clone https://github.com/Sathirasugeesvara/3Colooabarators.git
+```
+2. Open the project in **Code::Blocks** or run the program directly:
+   - Open `main.c` in Code::Blocks and press **Build & Run**
+   - Or compile via terminal:
+```bash
+gcc main.c -o gpa_calculator
+./gpa_calculator
+```
+3. Follow the prompts to:
+   - Enter the **number of courses**
+   - Input each **course name**, **grade**, and **credit hours**
+   - View your **calculated GPA** instantly 🎉
 
-Follow the prompts to enter your course grades and credit hours.
+---
 
-🎉 Get your GPA instantly!
+## 📝 How It Works
+- GPA is calculated by multiplying **grade points** by **credit hours** for each course.
+- Total grade points ÷ total credit hours = **final GPA**.
 
-🛠 Technologies Used
-Programming Language: C
+---
 
-IDE: Code::Blocks
+## 🎨 Notes
+- Designed for **learning and collaboration**
+- Can be **expanded** for semester-wise GPA or cumulative GPA
+- Minimalistic, **console-based interface** for simplicity
 
-Version Control: Git & GitHub
-
-🤝 Contributing
-We welcome contributions!
-
-Fork the repository 🔀
-
-Submit pull requests 📬
-
-Follow coding conventions and document changes 📄

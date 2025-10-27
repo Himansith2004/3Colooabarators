@@ -19,7 +19,7 @@ int main()
     return 0;
 }
 
-void gatheringData(char dataArr[4][maxLetter])
+void gatheringData(char dataArr[4][maxLetter])//that function allows to enter the data of user  (Next update:This part would be optional)
 {
     printf("Enter the Name of the student: ");
     fgets(dataArr[0],maxLetter,stdin);

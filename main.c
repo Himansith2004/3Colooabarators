@@ -14,6 +14,7 @@ int main()
 {
     char dataArr[4][maxLetter],subNameArr[3][maxLetter];
     gatheringData(dataArr);
+    printf("Nicer");
     return 0;
 }
 

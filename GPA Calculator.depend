@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1761643055 source:c:\users\ssuge\onedrive\desktop\git-projects\3colooabarators\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
